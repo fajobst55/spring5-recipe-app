@@ -3,7 +3,8 @@ package guru.springframework.domain;
 import javax.persistence.*;
 import lombok.*;
 
-@Data
+@Getter
+@Setter
 @EqualsAndHashCode(exclude = {"recipe"})
 @Entity
 public class Notes {
